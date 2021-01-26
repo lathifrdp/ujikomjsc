@@ -1,12 +1,12 @@
 import com.google.gson.annotations.SerializedName
 
 class Contact (
-	@field:SerializedName("gender") val gender : String,
-	@field:SerializedName("name") val name : Name,
-	@field:SerializedName("location") val location : Location,
-	@field:SerializedName("email") val email : String,
-	@field:SerializedName("dob") val dob : Dob,
-	@field:SerializedName("phone") val phone : String,
-	@field:SerializedName("cell") val cell : String,
-	@field:SerializedName("picture") val picture : Picture
+	@field:SerializedName("gender") var gender : String,
+	@field:SerializedName("name") var name : Name,
+	@field:SerializedName("location") var location : Location,
+	@field:SerializedName("email") var email : String,
+	@field:SerializedName("dob") var dob : Dob,
+	@field:SerializedName("phone") var phone : String,
+	@field:SerializedName("cell") var cell : String,
+	@field:SerializedName("picture") var picture : Picture
 )

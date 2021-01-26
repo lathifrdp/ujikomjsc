@@ -1,11 +1,11 @@
 import com.google.gson.annotations.SerializedName
 
 class Location (
-	@field:SerializedName("street") val street : Street,
-	@field:SerializedName("city") val city : String,
-	@field:SerializedName("state") val state : String,
-	@field:SerializedName("country") val country : String,
-	@field:SerializedName("postcode") val postcode : Int,
-	@field:SerializedName("coordinates") val coordinates : Coordinates,
-	@field:SerializedName("timezone") val timezone : Timezone
+	@field:SerializedName("street") var street : Street,
+	@field:SerializedName("city") var city : String,
+	@field:SerializedName("state") var state : String,
+	@field:SerializedName("country") var country : String,
+	@field:SerializedName("postcode") var postcode : Int,
+	@field:SerializedName("coordinates") var coordinates : Coordinates,
+	@field:SerializedName("timezone") var timezone : Timezone
 )

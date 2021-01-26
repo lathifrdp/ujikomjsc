@@ -1,7 +1,7 @@
 import com.google.gson.annotations.SerializedName
 
 class Name (
-	@field:SerializedName("title") val title : String,
-	@field:SerializedName("first") val first : String,
-	@field:SerializedName("last") val last : String
+	@field:SerializedName("title") var title : String,
+	@field:SerializedName("first") var first : String,
+	@field:SerializedName("last") var last : String
 )
